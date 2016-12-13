@@ -1,0 +1,217 @@
+/* body styles */
+body {
+	font-size: 16px;
+	background-color: rgb(148,3,6);
+	margin: 0px;
+}
+
+
+
+/* main container styling below */
+#maincontain {
+	maring-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	border: solid 1px black;
+	background-color: rgb(100, 99, 99);
+	margin-left: auto;
+	
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	
+}
+
+/* h1 styling */
+
+h1 {
+	margin: .5em;
+	font-size: 3em;
+	text-align: center;
+	padding-bottom: .5em;
+	padding-top: .5em;
+	border-bottom: solid thin black;
+	border-top: solid thin black;
+	font-style: oblique;
+	font-family: cursive;
+	
+	-o-text-shadow: 5px 5px white;
+	-moz-text-shadow: 5px 5px white;
+	-webkit-text-shadow: 5px 5px white;
+	text-shadow: 2px 2px white;
+	
+}
+/* main img styling */
+
+	/* this image is styled with css */
+#imgheader { 
+background: url(grimback.jpg) 50% 50% no-repeat; 
+	/* 50% 50% centers image in div essentially cropping it to my specs  */
+width: 1000px;
+height: 360px;
+}
+
+#imgheader a {
+display: block;
+width: 1000px;
+height: 360px;
+}
+/* nav styles*/
+
+
+#navdiv ul li {
+	display: inline;
+	font-size: 200%;
+	border: solid thin black;
+	padding-left: 1em;
+	padding-right: 1em;
+	
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+		border-radius: 10px;
+	
+
+	
+}
+#navdiv ul {
+	text-align: center
+}
+
+li a {
+	text-decoration: none;
+	color: black;
+}
+
+#navdiv li:hover {
+	background-color: rgb(148,3,6);
+	color: white;
+}
+
+.socialm {
+	display: inline;
+	text-decoration: none;
+	border: none;
+	width: 200px;
+	margin: 2.5em;
+	padding: 1em;
+		
+}
+/* home page paragraph selection */
+
+body #maincontain #socialmedialist p {
+	text-align: center;
+	margin: 1em;
+	font-size: 130%;
+}
+
+
+/* i frame fixes to make validator clear */
+iframe {
+	border: none;
+	overflow: hidden;
+	opacity: 0.8;
+	
+	margin-top: .2em;
+}
+
+
+
+/*fieldset border remove */
+
+fieldset {
+	border: none;
+}
+
+
+
+/* Form css below 
+note: i did all of the css for the form in this section 
+*/
+
+
+form {
+	width: 500px;
+	border-right: solid thin black;
+}
+
+label {
+	display: block;
+	float: left;
+	width: 200px;
+	clear: left;
+	margin-bottom: 10px;
+	
+}
+
+input {
+	display: block;
+	float: left;
+	width: 200px;
+	margin-bottom: 10px;
+	
+}
+
+textarea{
+	float: left;
+	width: 200px;
+	margin-bottom: 10px;
+	
+}
+
+select {
+	float: left;
+	margin-right: 50px;
+	margin-bottom: 20px;
+	
+}
+
+.submit {
+	
+	margin-left: 140px;
+	display: block;
+	
+	
+	
+}
+
+
+/* footer div styles */
+#footer {
+	display: block;
+	margin-left: 200px;
+}
+
+
+/* section styles for paragraph on booking page */
+
+.sectpara {
+	float: right;
+	width: 450px;
+	line-height: 30px;
+	font-size: 200%;
+	text-align: center;
+		margin-right: 20px;
+}
+
+
+/* bio page styles for bio specifically */
+blockquote p {
+	font-size: 200%;
+	text-indent: 50px;
+	border-bottom: solid thin black;
+	padding-bottom: 30px;
+}
+
+/* java button css */
+.javabutt {
+	margin-top: .3em;
+	margin-right: .3em;
+}
+
+.wantmoe {
+	font-size: 200%;
+	text-align: center;
+}
+

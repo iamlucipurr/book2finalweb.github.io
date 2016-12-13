@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+
+<head>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link href="finalwebcs.css" rel="stylesheet" type="text/css" />
+
+<title>Booking</title>
+
+
+</head>
+
+
+<body>
+
+<!-- main container div starts below -->
+
+<div id="maincontain">
+
+<!-- header div below -->
+
+
+<div id="imgheader">
+	<!-- header content below --> 
+		<a href="index.html">
+	
+		</a>
+</div>
+	
+<!-- nav below check style sheet for css -->
+	<div id="navdiv">
+	 
+	<ul> 
+		<li><a href="index.html">Home</a></li>
+		<li><a href="music.html">Music</a></li>
+		<li><a href="bio.html">About us</a></li>
+		<li><span class="current">Booking</span></li>
+
+	</ul>
+	
+	</div>
+	<!-- main section div -->
+	<div id="mainsection">
+
+<!-- page header -->
+		<h1> Booking </h1>
+
+	<!-- booking form -->
+	<p class="sectpara">
+	There are many details that go into booking an artist so please understand that this booking form serves as an invitation only.<br /><br />  This does not constitute a confirmation of artist appearance or performance.<br /><br />  It will assist us in making the best decision possible while doing our best to meet your request. <br /><br /> Thank you!
+
+		</p>
+	<form action="https://formspree.io/Grim.and.reaper@gmail.com"
+      method="POST">
+		<legend> " * " Marks required fields. </legend>
+	
+	
+	
+		<fieldset id="bookinginfo">
+		
+<label for="eventdate">		
+Date of Event *
+		</label>
+		<input type="date" id="eventdate" required="required" />
+
+<label for="eventtime">
+Time of Event *
+			</label>
+			<input id="eventtime" type="time" required="required"/>
+
+<label for="eventdes">
+Description of Event *
+			</label>
+		<textarea id="eventdes" required="required" > </textarea>
+			
+<label for="promotername">
+Promoter's Name *
+			</label>
+			<input id="promotername" type="text" required="required"/>
+			
+<label for="vname">
+Venue Name *
+			</label>
+			<input id="vname" type="text" required="required"/>
+			
+<label for="venueaddress">
+Address *
+			</label>
+			<input id="venueaddress" type="text" required="required"/>
+			
+<label for="vcapacity">			
+Venue Capacity 
+			</label>
+			<input id="vcapacity" type="text" />
+
+<label for="expectedatt">						
+Expected Attendance *
+			</label>
+			<input id="expectedatt" type="text" required="required"/>
+
+<label for="setlength" >
+Set Time (in minutes) *
+			</label>
+			<input id="setlength" type="number" placeholder="30" step="15" required="required"/><br />
+
+<label for="contname">
+Contact Name *
+			</label>
+			<input id="contname" type="text" required="required"/>
+
+<label for="contemail">
+Contact Email *
+			</label><br />
+			<input id="contemail" type="email" required="required" pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" />
+
+<label for="contnumber">
+Contact Phone Number 
+			</label>
+			<input id="contnumber" type="tel" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$
+"/>
+
+	<label for="recorded"> Will this event be recorded?</label>
+		<select for="recorded">
+			<option value="yes">Yes</option>
+			<option value="no">No</option>
+			</select>
+			
+ 
+ <input for="submit" class="submit" type="submit" value="submit" />
+		</fieldset>
+		</form>
+		
+		
+	
+	
+	</div>
+	<!-- footer div below -->
+	<div id="footer">
+		<p> Thank you for your submissions! </p>
+	</div>
+	
+	
+<!-- main contain div ending below --> 
+	</div>
+	
+	<!-- social media buttons intentionaly put outside of the main container -->
+	
+	<!-- soundcloud button -->
+	<iframe src="https://w.soundcloud.com/icon/?url=http%3A%2F%2Fsoundcloud.com%2Fgrim-and-reaper&color=orange_white&size=24" style="width: 25px; height: 25px;"></iframe>
+
+	
+<!-- facebook button-->
+	<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FGrimAndReaper%2F&width=95&layout=button&action=like&size=small&show_faces=false&share=true&height=65&appId" width="95" height="25" ></iframe>
+	<!-- spotify button below -->
+	
+	<iframe src="https://embed.spotify.com/follow/1/?uri=spotify:artist:380NdtcHXVBFWwptYGg81r&size=basic&theme=light" width="150" height="25"></iframe>
+	
+	<!-- youtube for grim and reaper below -->
+	
+	<script src="https://apis.google.com/js/platform.js"></script>
+
+<div class="g-ytsubscribe" data-channelid="UCsI9AJRNUCF63Cl-DcPpTiA" data-layout="default" data-theme="dark" data-count="hidden"></div>
+
+
+
+</body>
+
+
+</html>
+<!--       _
+       .__(.)< (MEOW)
+        \___)   
+ ~~~~~~~~~~~~~~~~~~-->
+ <!--
+ this project was completed by Jake 12/11/2016-->
