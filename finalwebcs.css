@@ -230,3 +230,13 @@ blockquote p {
 	text-align: center;
 }
 
+/* outside the main container adjusting div */
+
+#outsidecontain {
+	maring-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	height: 30px;
+	margin-left: auto;
+	
+}
