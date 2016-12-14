@@ -1,7 +1,7 @@
 /* body styles */
 body {
 	font-size: 16px;
-	background-color: rgb(148,3,6);
+	background-color: rgb(0,0,0);
 	margin: 0px;
 }
 
@@ -21,6 +21,19 @@ body {
 	-webkit-border-radius: 10px;
 	border-radius: 10px;
 	
+
+	
+	-o-box-shadow: 10px 0px 15px rgba(255, 255, 255, 0.5),
+	-10px 0px 15px  rgba(255, 255, 255, 0.5);
+	
+	-moz-box-shadow: 10px 0px 15px rgba(255, 255, 255, 0.5),
+	-10px 0px 15px  rgba(255, 255, 255, 0.5);
+	
+	-webkit-box-shadow: 10px 0px 15px rgba(255, 255, 255, 0.5),
+	-10px 0px 15px  rgba(255, 255, 255, 0.5);
+	
+	box-shadow: 10px 0px 15px rgba(255, 255, 255, 0.5),
+	-10px 0px 15px  rgba(255, 255, 255, 0.5);
 }
 
 /* h1 styling */
@@ -40,6 +53,8 @@ h1 {
 	-moz-text-shadow: 5px 5px white;
 	-webkit-text-shadow: 5px 5px white;
 	text-shadow: 2px 2px white;
+	
+	
 	
 }
 /* main img styling */
