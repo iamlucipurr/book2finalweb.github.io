@@ -55,76 +55,76 @@
 	There are many details that go into booking an artist so please understand that this booking form serves as an invitation only.<br /><br />  This does not constitute a confirmation of artist appearance or performance.<br /><br />  It will assist us in making the best decision possible while doing our best to meet your request. <br /><br /> Thank you!
 
 		</p>
-	<form action="https://formspree.io/Grim.and.reaper@gmail.com"
+	<form name="bookingform" action="https://formspree.io/Grim.and.reaper@gmail.com"
       method="POST">
 		<legend> " * " Marks required fields. </legend>
 	
 	
 	
-		<fieldset id="bookinginfo">
+		<fieldset id="bookinginfo" name="bookinginfo">
 		
-<label for="eventdate">		
+<label for="eventdate" name="eventdate" id="eventdate">		
 Date of Event *
 		</label>
-		<input type="date" id="eventdate" required="required" />
+		<input type="date" for="eventdate" required="required" />
 
-<label for="eventtime">
+<label for="eventtime" id="eventtime" name="eventtime">
 Time of Event *
 			</label>
-			<input id="eventtime" type="time" required="required"/>
+			<input for="eventtime" type="time" required="required"/>
 
-<label for="eventdes">
+<label for="eventdes" name="eventdes" id="eventdes">
 Description of Event *
 			</label>
-		<textarea id="eventdes" required="required" > </textarea>
+		<textarea for="eventdes" required > </textarea>
 			
-<label for="promotername">
+<label for="promotername" name="promotername" id="promotername">
 Promoter's Name *
 			</label>
-			<input id="promotername" type="text" required="required"/>
+			<input for="promotername" type="text" required="required"/>
 			
-<label for="vname">
+<label for="vname" name="vname" id="vname">
 Venue Name *
 			</label>
-			<input id="vname" type="text" required="required"/>
+			<input for="vname" type="text" required="required"/>
 			
-<label for="venueaddress">
+<label for="venueaddress" id="venueaddress" name="venueaddress">
 Address *
 			</label>
-			<input id="venueaddress" type="text" required="required"/>
+			<input for="venueaddress" type="text" required="required"/>
 			
-<label for="vcapacity">			
+<label for="vcapacity" id="vcapacity" name="vcapacity">			
 Venue Capacity 
 			</label>
-			<input id="vcapacity" type="text" />
+			<input for="vcapacity" type="text" />
 
-<label for="expectedatt">						
+<label for="expectedatt" id="expectedatt" name="expectedatt">						
 Expected Attendance *
 			</label>
-			<input id="expectedatt" type="text" required="required"/>
+			<input for="expectedatt" type="text" required="required"/>
 
-<label for="setlength" >
+<label for="setlength" id="setlength" name="setlength" >
 Set Time (in minutes) *
 			</label>
-			<input id="setlength" type="number" placeholder="30" step="15" required="required"/><br />
+			<input for="setlength" type="number" placeholder="30" step="15" required="required"/><br />
 
-<label for="contname">
+<label for="contname" id="contname" name="contname">
 Contact Name *
 			</label>
-			<input id="contname" type="text" required="required"/>
+			<input for="contname" type="text" required="required"/>
 
-<label for="contemail">
+<label for="contemail" id="contemail" name="contemail">
 Contact Email *
 			</label><br />
-			<input id="contemail" type="email" required="required" />
+			<input for="contemail" type="email" required="required" />
 
-<label for="contnumber">
+<label for="contnumber" id="contnumber" name="contnumber">
 Contact Phone Number 
 			</label>
-			<input id="contnumber" type="tel" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$
+			<input for="contnumber" type="tel" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$
 "/>
 
-	<label for="recorded"> Will this event be recorded?</label>
+	<label for="recorded" id="recorded" name="recorded"> Will this event be recorded?</label>
 		<select for="recorded">
 			<option value="yes">Yes</option>
 			<option value="no">No</option>
