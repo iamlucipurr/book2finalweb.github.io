@@ -9,12 +9,11 @@ body {
 
 /* main container styling below */
 #maincontain {
-	maring-left: auto;
+	margin-left: auto;
 	margin-right: auto;
 	width: 1000px;
 	border: solid 1px black;
 	background-color: rgb(100, 99, 99);
-	margin-left: auto;
 	
 	-o-border-radius: 10px;
 	-moz-border-radius: 10px;
@@ -183,7 +182,7 @@ select {
 }
 
 .submit {
-	
+	margin-top: 20px;
 	margin-left: 140px;
 	display: block;
 	
@@ -196,6 +195,8 @@ select {
 #footer {
 	display: block;
 	margin-left: 200px;
+	margin-top: 30px;
+	text-align: center;
 }
 
 
@@ -204,19 +205,20 @@ select {
 .sectpara {
 	float: right;
 	width: 450px;
-	line-height: 30px;
-	font-size: 200%;
+	font-size: 150%;
 	text-align: center;
-		margin-right: 20px;
+	margin-right: 20px;
+	line-height: 1.2em;
 }
 
 
 /* bio page styles for bio specifically */
 blockquote p {
-	font-size: 200%;
+	font-size: 150%;
 	text-indent: 50px;
 	border-bottom: solid thin black;
 	padding-bottom: 30px;
+	line-height: 1.2em;
 }
 
 /* java button css */
@@ -226,7 +228,7 @@ blockquote p {
 }
 
 .wantmoe {
-	font-size: 200%;
+	font-size: 125%;
 	text-align: center;
 }
 
@@ -239,3 +241,19 @@ blockquote p {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+
+
+/*  anything else contained in this external css sheet 
+was done outside of 1/11/2017 
+please put everything done after this 
+date below this point */
+
+/* text fix for new index content 2/2/2017 */
+
+.awesomep {
+	text-align: center;
+	width: 100%;
+	font-size: 125%;
+}
+
